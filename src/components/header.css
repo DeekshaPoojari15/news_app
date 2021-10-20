@@ -1,0 +1,22 @@
+.header{
+    background-color: #282c34;
+    min-height: 15vh;
+    display: flex;
+    flex-wrap:row;
+    align-items: center;
+    justify-content:flex-start;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+.image{
+    padding: 15px;
+    animation: App-logo-spin infinite 50s linear;
+}
+}
+
+.name{
+    padding-left: 50px;
+}
+
